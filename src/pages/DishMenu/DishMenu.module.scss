@@ -1,0 +1,58 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.menu {
+  padding: 20px $x-padding;
+  @media (max-width: $desktop_xsm) {
+    padding: 20px $x-padding-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 20px $x-padding-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 20px $x-padding-md;
+  }
+}
+
+.header {
+  align-items: center;
+  background-image: url("/assets/dish-menu/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 300px;
+  padding: 0px $x-padding;
+  @media (max-width: $desktop_xsm) {
+    padding: 0px $x-padding-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 0px $x-padding-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 0px $x-padding-md;
+  }
+  &__text {
+    color: white;
+    font-size: 5rem;
+    min-width: 400px;
+    width: 40%;
+  }
+}
+
+.dishMenu {
+  padding: 50px $x-padding;
+  @media (max-width: $desktop_xsm) {
+    padding: 50px $x-padding-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 50px $x-padding-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 50px $x-padding-md;
+  }
+  &__title {
+    color: $dark;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+}
