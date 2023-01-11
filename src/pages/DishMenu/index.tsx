@@ -2,6 +2,7 @@ import styles from "./DishMenu.module.scss"
 import { ReactComponent as Logo } from "assets/logo.svg"
 import SearchEngine from "./SearchEngine"
 import { useState } from "react"
+import Filters from "./Filters"
 
 export interface IDishMenuProps {}
 
@@ -19,6 +20,9 @@ export default function DishMenu({}: IDishMenuProps) {
       <section className={styles.dishMenu}>
         <h3 className={styles.dishMenu__title}>Menu</h3>
         <SearchEngine search={search} setSearch={setSearch} />
+        <div className={styles.dishMenu__filters}>
+          <Filters />
+        </div>
       </section>
     </main>
   )
