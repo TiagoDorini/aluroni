@@ -8,6 +8,7 @@ export interface IDishMenuProps {}
 
 export default function DishMenu({}: IDishMenuProps) {
   const [search, setSearch] = useState("")
+  const [filter, setFilter] = useState<number | null>(null)
 
   return (
     <main>
@@ -21,7 +22,7 @@ export default function DishMenu({}: IDishMenuProps) {
         <h3 className={styles.dishMenu__title}>Menu</h3>
         <SearchEngine search={search} setSearch={setSearch} />
         <div className={styles.dishMenu__filters}>
-          <Filters />
+          <Filters filter={filter} setFilter={setFilter} />
         </div>
       </section>
     </main>
