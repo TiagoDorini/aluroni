@@ -1,8 +1,8 @@
-import styles from "./Item.module.scss"
-import dishes from "../itens.json"
-import classNames from "classnames"
+import styles from "./Item.module.scss";
+import dishes from "../itens.json";
+import classNames from "classnames";
 
-type IItemProps = typeof dishes[0]
+type IItemProps = (typeof dishes)[0];
 
 export default function Item({
   title,
@@ -40,5 +40,5 @@ export default function Item({
         </div>
       </div>
     </div>
-  )
+  );
 }

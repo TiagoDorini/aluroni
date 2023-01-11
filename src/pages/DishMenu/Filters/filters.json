@@ -1,18 +1,18 @@
 [
-    {
-      "label": "Pasta",
-      "id": 1
-    },
-    {
-      "label": "Steaks",
-      "id": 2
-    },
-    {
-      "label": "Combos",
-      "id": 3
-    },
-    {
-      "label": "Vegans",
-      "id": 4
-    }
-  ]
+  {
+    "label": "Pasta",
+    "id": 1
+  },
+  {
+    "label": "Steaks",
+    "id": 2
+  },
+  {
+    "label": "Combos",
+    "id": 3
+  },
+  {
+    "label": "Vegans",
+    "id": 4
+  }
+]
