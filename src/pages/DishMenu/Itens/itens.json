@@ -1,119 +1,119 @@
 [
-  {
-    "title": "Mediterranean Pasta",
-    "description": "Spaghetti with seafood and spices, specialty of the kitchen. Caution: Contains shrimp and other seafood!",
-    "photo": "/aluroni/assets/dishes/macarrao_mediterraneo.png",
-    "size": 400,
-    "serving": 2,
-    "price": 73.0,
-    "id": 1,
-    "category": {
-      "id": 1,
-      "label": "Pastas"
-    }
-  },
-  {
-    "title": "Aluroni Special",
-    "description": "Pasta with seafood and spices, specialty of the kitchen. Caution: Contains shrimp and other seafood!",
-    "photo": "/aluroni/assets/dishes/macarrao_da_casa.png",
-    "size": 400,
-    "serving": 2,
-    "price": 54.0,
-    "id": 2,
-    "category": {
-      "id": 1,
-      "label": "Pastas"
-    }
-  },
-  {
-    "title": "Pasta w/ Chilli",
-    "description": "Fettuccine with chilli sauce and spices.",
-    "photo": "/aluroni/assets/dishes/macarrao_com_chilli.png",
-    "size": 350,
-    "serving": 1,
-    "price": 58.0,
-    "id": 3,
-    "category": {
-      "id": 1,
-      "label": "Pastas"
-    }
-  },
-  {
-    "title": "House salad with grilled salmon",
-    "description": "House salad (lettuce, arugula, carrot) with salmon.",
-    "photo": "/aluroni/assets/dishes/salada_da_casa.png",
-    "size": 450,
-    "serving": 1,
-    "price": 42.0,
-    "id": 4,
-    "category": {
-      "id": 2,
-      "label": "Steaks"
-    }
-  },
-  {
-    "title": "Steak with Fries",
-    "description": "Beef steak (150g), with fries. Comes with rice and sauces.",
-    "photo": "/aluroni/assets/dishes/bife_com_batatas.png",
-    "size": 550,
-    "serving": 2,
-    "price": 86.0,
-    "id": 5,
-    "category": {
-      "id": 2,
-      "label": "Steaks"
-    }
-  },
-  {
-    "title": "Chopped Picanha steak with vegetables and pasta",
-    "description": "400g of chopped Picanha, with grilled vegetables and pasta chosen by the customer.",
-    "photo": "/aluroni/assets/dishes/picanha_picada.png",
-    "size": 850,
-    "serving": 3,
-    "price": 123.0,
-    "id": 6,
-    "category": {
-      "id": 3,
-      "label": "Combos"
-    }
-  },
-  {
-    "title": "Vegan lasagna (soy meat)",
-    "description": "100% vegan Lasagna made with soy meat and special pasta.",
-    "photo": "/aluroni/assets/dishes/lasagna_vegana.png",
-    "size": 350,
-    "serving": 1,
-    "price": 45.0,
-    "id": 7,
-    "category": {
-      "id": 4,
-      "label": "Vegans"
-    }
-  },
-  {
-    "title": "Special salad",
-    "description": "Salad with avocado, mango, lettuce, chickpeas and more.",
-    "photo": "/aluroni/assets/dishes/salada_especial.png",
-    "size": 350,
-    "serving": 1,
-    "price": 37.0,
-    "id": 8,
-    "category": {
-      "id": 4,
-      "label": "Vegans"
-    }
-  },
-  {
-    "title": "Meatballs",
-    "description": "Portion of meatballs with sour cream, onion and spices. Comes with rice or pasta.",
-    "photo": "/aluroni/assets/dishes/almondegas.png",
-    "size": 740,
-    "serving": 3,
-    "price": 120.0,
-    "id": 9,
-    "category": {
-      "id": 3,
-      "label": "Combos"
-    }
-  }
+	{
+		"title": "Mediterranean Pasta",
+		"description": "Spaghetti with seafood and spices, specialty of the kitchen. Caution: Contains shrimp and other seafood!",
+		"photo": "/aluroni/assets/dishes/macarrao_mediterraneo.png",
+		"size": 400,
+		"serving": 2,
+		"price": 73.0,
+		"id": 1,
+		"category": {
+			"id": 1,
+			"label": "Pastas"
+		}
+	},
+	{
+		"title": "Aluroni Special",
+		"description": "Pasta with seafood and spices, specialty of the kitchen. Caution: Contains shrimp and other seafood!",
+		"photo": "/aluroni/assets/dishes/macarrao_da_casa.png",
+		"size": 400,
+		"serving": 2,
+		"price": 54.0,
+		"id": 2,
+		"category": {
+			"id": 1,
+			"label": "Pastas"
+		}
+	},
+	{
+		"title": "Pasta w/ Chilli",
+		"description": "Fettuccine with chilli sauce and spices.",
+		"photo": "/aluroni/assets/dishes/macarrao_com_chilli.png",
+		"size": 350,
+		"serving": 1,
+		"price": 58.0,
+		"id": 3,
+		"category": {
+			"id": 1,
+			"label": "Pastas"
+		}
+	},
+	{
+		"title": "House salad with grilled salmon",
+		"description": "House salad (lettuce, arugula, carrot) with salmon.",
+		"photo": "/aluroni/assets/dishes/salada_da_casa.png",
+		"size": 450,
+		"serving": 1,
+		"price": 42.0,
+		"id": 4,
+		"category": {
+			"id": 2,
+			"label": "Steaks"
+		}
+	},
+	{
+		"title": "Steak with Fries",
+		"description": "Beef steak (150g), with fries. Comes with rice and sauces.",
+		"photo": "/aluroni/assets/dishes/bife_com_batatas.png",
+		"size": 550,
+		"serving": 2,
+		"price": 86.0,
+		"id": 5,
+		"category": {
+			"id": 2,
+			"label": "Steaks"
+		}
+	},
+	{
+		"title": "Chopped Picanha steak with vegetables and pasta",
+		"description": "400g of chopped Picanha, with grilled vegetables and pasta chosen by the customer.",
+		"photo": "/aluroni/assets/dishes/picanha_picada.png",
+		"size": 850,
+		"serving": 3,
+		"price": 123.0,
+		"id": 6,
+		"category": {
+			"id": 3,
+			"label": "Combos"
+		}
+	},
+	{
+		"title": "Vegan lasagna (soy meat)",
+		"description": "100% vegan Lasagna made with soy meat and special pasta.",
+		"photo": "/aluroni/assets/dishes/lasagna_vegana.png",
+		"size": 350,
+		"serving": 1,
+		"price": 45.0,
+		"id": 7,
+		"category": {
+			"id": 4,
+			"label": "Vegans"
+		}
+	},
+	{
+		"title": "Special salad",
+		"description": "Salad with avocado, mango, lettuce, chickpeas and more.",
+		"photo": "/aluroni/assets/dishes/salada_especial.png",
+		"size": 350,
+		"serving": 1,
+		"price": 37.0,
+		"id": 8,
+		"category": {
+			"id": 4,
+			"label": "Vegans"
+		}
+	},
+	{
+		"title": "Meatballs",
+		"description": "Portion of meatballs with sour cream, onion and spices. Comes with rice or pasta.",
+		"photo": "/aluroni/assets/dishes/almondegas.png",
+		"size": 740,
+		"serving": 3,
+		"price": 120.0,
+		"id": 9,
+		"category": {
+			"id": 3,
+			"label": "Combos"
+		}
+	}
 ]
