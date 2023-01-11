@@ -1,5 +1,5 @@
 import styles from './Item.module.scss'
-import dishes from '../itens.json'
+import dishes from 'data/dishes.json'
 import classNames from 'classnames'
 
 type IItemProps = (typeof dishes)[0]

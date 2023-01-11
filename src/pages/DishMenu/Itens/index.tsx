@@ -1,4 +1,4 @@
-import dishes from './itens.json'
+import dishes from 'data/dishes.json'
 import Item from './Item'
 import styles from './Itens.module.scss'
 import { useEffect, useState } from 'react'
