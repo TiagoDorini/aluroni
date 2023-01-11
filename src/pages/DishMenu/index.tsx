@@ -3,6 +3,7 @@ import { ReactComponent as Logo } from "assets/logo.svg"
 import SearchEngine from "./SearchEngine"
 import { useState } from "react"
 import Filters from "./Filters"
+import Sorter from "./Sorter"
 
 export interface IDishMenuProps {}
 
@@ -23,6 +24,7 @@ export default function DishMenu({}: IDishMenuProps) {
         <SearchEngine search={search} setSearch={setSearch} />
         <div className={styles.dishMenu__filters}>
           <Filters filter={filter} setFilter={setFilter} />
+          <Sorter />
         </div>
       </section>
     </main>
