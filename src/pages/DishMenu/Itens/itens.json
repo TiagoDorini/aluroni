@@ -2,7 +2,7 @@
   {
     "title": "Mediterranean Pasta",
     "description": "Spaghetti with seafood and spices, specialty of the kitchen. Caution: Contains shrimp and other seafood!",
-    "photo": "/build/assets/dishes/macarrao_mediterraneo.png",
+    "photo": "/aluroni/assets/dishes/macarrao_mediterraneo.png",
     "size": 400,
     "serving": 2,
     "price": 73.0,
@@ -15,7 +15,7 @@
   {
     "title": "Aluroni Special",
     "description": "Pasta with seafood and spices, specialty of the kitchen. Caution: Contains shrimp and other seafood!",
-    "photo": "/build/assets/dishes/macarrao_da_casa.png",
+    "photo": "/aluroni/assets/dishes/macarrao_da_casa.png",
     "size": 400,
     "serving": 2,
     "price": 54.0,
@@ -28,7 +28,7 @@
   {
     "title": "Pasta w/ Chilli",
     "description": "Fettuccine with chilli sauce and spices.",
-    "photo": "/build/assets/dishes/macarrao_com_chilli.png",
+    "photo": "/aluroni/assets/dishes/macarrao_com_chilli.png",
     "size": 350,
     "serving": 1,
     "price": 58.0,
@@ -41,7 +41,7 @@
   {
     "title": "House salad with grilled salmon",
     "description": "House salad (lettuce, arugula, carrot) with salmon.",
-    "photo": "/build/assets/dishes/salada_da_casa.png",
+    "photo": "/aluroni/assets/dishes/salada_da_casa.png",
     "size": 450,
     "serving": 1,
     "price": 42.0,
@@ -54,7 +54,7 @@
   {
     "title": "Steak with Fries",
     "description": "Beef steak (150g), with fries. Comes with rice and sauces.",
-    "photo": "/build/assets/dishes/bife_com_batatas.png",
+    "photo": "/aluroni/assets/dishes/bife_com_batatas.png",
     "size": 550,
     "serving": 2,
     "price": 86.0,
@@ -67,7 +67,7 @@
   {
     "title": "Chopped Picanha steak with vegetables and pasta",
     "description": "400g of chopped Picanha, with grilled vegetables and pasta chosen by the customer.",
-    "photo": "/build/assets/dishes/picanha_picada.png",
+    "photo": "/aluroni/assets/dishes/picanha_picada.png",
     "size": 850,
     "serving": 3,
     "price": 123.0,
@@ -80,7 +80,7 @@
   {
     "title": "Vegan lasagna (soy meat)",
     "description": "100% vegan Lasagna made with soy meat and special pasta.",
-    "photo": "/build/assets/dishes/lasagna_vegana.png",
+    "photo": "/aluroni/assets/dishes/lasagna_vegana.png",
     "size": 350,
     "serving": 1,
     "price": 45.0,
@@ -93,7 +93,7 @@
   {
     "title": "Special salad",
     "description": "Salad with avocado, mango, lettuce, chickpeas and more.",
-    "photo": "/build/assets/dishes/salada_especial.png",
+    "photo": "/aluroni/assets/dishes/salada_especial.png",
     "size": 350,
     "serving": 1,
     "price": 37.0,
@@ -106,7 +106,7 @@
   {
     "title": "Meatballs",
     "description": "Portion of meatballs with sour cream, onion and spices. Comes with rice or pasta.",
-    "photo": "/build/assets/dishes/almondegas.png",
+    "photo": "/aluroni/assets/dishes/almondegas.png",
     "size": 740,
     "serving": 3,
     "price": 120.0,
