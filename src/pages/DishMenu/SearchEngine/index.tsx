@@ -1,5 +1,5 @@
-import styles from "./SearchEngine.module.scss"
-import { CgSearch } from "react-icons/cg"
+import styles from './SearchEngine.module.scss'
+import { CgSearch } from 'react-icons/cg'
 
 interface ISearchEngineProps {
   search: string
@@ -7,17 +7,17 @@ interface ISearchEngineProps {
 }
 
 export default function SearchEngine({
-  search,
-  setSearch,
+	search,
+	setSearch,
 }: ISearchEngineProps) {
-  return (
-    <div className={styles.searchEngine}>
-      <input
-        value={search}
-        onChange={(event) => setSearch(event.target.value)}
-        placeholder="Search"
-      />
-      <CgSearch size={20} color="#4C4D5E" />
-    </div>
-  )
+	return (
+		<div className={styles.searchEngine}>
+			<input
+				value={search}
+				onChange={(event) => setSearch(event.target.value)}
+				placeholder="Search"
+			/>
+			<CgSearch size={20} color="#4C4D5E" />
+		</div>
+	)
 }

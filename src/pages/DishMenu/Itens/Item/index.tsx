@@ -11,7 +11,7 @@ export default function Item({
   size,
   serving,
   price,
-  photo
+  photo,
 }: IItemProps) {
   return (
     <div className={styles.item}>
