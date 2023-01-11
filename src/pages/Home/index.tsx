@@ -1,6 +1,7 @@
 import dishes from 'data/dishes.json'
 import styles from './Home.module.scss'
 import theme from 'styles/Theme.module.scss'
+import aboutUs from 'assets/nossa_casa.png'
 
 export default function Home() {
 	let suggestedDishes = [...dishes]
@@ -9,7 +10,6 @@ export default function Home() {
 	return (
 		<section>
 			<h3 className={theme.title}>Suggestions</h3>
-
 			<div className={styles.suggestions}>
 				{suggestedDishes.map((item) => (
 					<div key={item.id} className={styles.suggested}>
@@ -19,6 +19,13 @@ export default function Home() {
 						<button className={styles.suggested__btn}> See more </button>
 					</div>
 				))}
+			</div>
+			<h3 className={theme.title}> Our Place </h3>
+			<div className={styles.ourPlace}>
+				<img src={aboutUs} alt='Casa do aluroni' />
+				<div className={styles.ourPlace__address}>
+					Rua Vergueiro, 3185 <br /> <br /> Vila Mariana - SP
+				</div>
 			</div>
 		</section>
 	)
