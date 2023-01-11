@@ -1,5 +1,6 @@
 import dishes from 'data/dishes.json'
 import styles from './Home.module.scss'
+import theme from 'styles/Theme.module.scss'
 
 export default function Home() {
 	let suggestedDishes = [...dishes]
@@ -7,7 +8,7 @@ export default function Home() {
 
 	return (
 		<section>
-			<h3 className={styles.title}>Suggestions</h3>
+			<h3 className={theme.title}>Suggestions</h3>
 
 			<div className={styles.suggestions}>
 				{suggestedDishes.map((item) => (

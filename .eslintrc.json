@@ -12,6 +12,8 @@
 	},
 	"plugins": ["react", "@typescript-eslint"],
 	"rules": {
+		"no-empty-pattern": "off",
+		"@typescript-eslint/no-empty-interface": "off",
 		"react/react-in-jsx-scope": "off",
 		"linebreak-style": ["error", "unix"],
 		"quotes": ["error", "single"],
