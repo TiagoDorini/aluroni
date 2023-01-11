@@ -1,4 +1,3 @@
-import logo from "assets/logo.svg"
 import styles from "./Item.module.scss"
 import dishes from "../itens.json"
 import classNames from "classnames"
