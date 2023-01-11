@@ -4,12 +4,14 @@ import SearchEngine from "./SearchEngine"
 import { useState } from "react"
 import Filters from "./Filters"
 import Sorter from "./Sorter"
+import Itens from "./Itens"
 
 export interface IDishMenuProps {}
 
 export default function DishMenu({}: IDishMenuProps) {
   const [search, setSearch] = useState("")
   const [filter, setFilter] = useState<number | null>(null)
+  const [sort, setSort] = useState("")
 
   return (
     <main>
@@ -24,8 +26,9 @@ export default function DishMenu({}: IDishMenuProps) {
         <SearchEngine search={search} setSearch={setSearch} />
         <div className={styles.dishMenu__filters}>
           <Filters filter={filter} setFilter={setFilter} />
-          <Sorter />
+          <Sorter sort={sort} setSort={setSort} />
         </div>
+        <Itens search={search} filter={filter} sort={sort} />
       </section>
     </main>
   )
