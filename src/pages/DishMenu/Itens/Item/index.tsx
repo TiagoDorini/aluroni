@@ -1,10 +1,11 @@
 import styles from './Item.module.scss'
 import classNames from 'classnames'
 import { IDish } from 'types/DishTypes'
+import Tags from 'components/Tags'
 
 interface IItemProps extends IDish {}
 
-export default function Item({ title, description, category, size, serving, price, photo }: IItemProps) {
+export default function Item({ title, description, photo, category, price, serving, size }: IItemProps) {
 	return (
 		<div className={styles.item}>
 			<div className={styles.item__image}>
@@ -15,21 +16,7 @@ export default function Item({ title, description, category, size, serving, pric
 					<h2>{title}</h2>
 					<p>{description}</p>
 				</div>
-				<div className={styles.item__tags}>
-					<div
-						className={classNames({
-							[styles.item__type]: true,
-							[styles[`item__type__${category.label.toLowerCase()}`]]: true,
-						})}
-					>
-						{category.label}
-					</div>
-					<div className={styles.item__portion}>{size}g</div>
-					<div className={styles.item__qtypeople}>
-						Serves {serving} {serving === 1 ? 'person' : 'people'}
-					</div>
-					<div className={styles.item__cost}> R$ {price.toFixed(2)} </div>
-				</div>
+				<Tags category={category} price={price} serving={serving} size={size} />
 			</div>
 		</div>
 	)

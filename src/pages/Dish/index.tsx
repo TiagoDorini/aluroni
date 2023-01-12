@@ -4,6 +4,7 @@ import dishes from 'data/dishes.json'
 import classNames from 'classnames'
 import { useEffect, useState } from 'react'
 import { IDish } from 'types/DishTypes'
+import Tags from 'components/Tags'
 
 export default function Dish() {
 	const { id } = useParams()
@@ -41,21 +42,14 @@ export default function Dish() {
 					</div>
 					<div className={styles.content}>
 						<p className={styles.content__description}>{selectedDish.description}</p>
-						<div className={styles.tags}>
-							<div
-								className={classNames({
-									[styles.tags__type]: true,
-									[styles[`tags__type__${selectedDish.category.label.toLowerCase()}`]]: true,
-								})}
-							>
-								{selectedDish.category.label}
-							</div>
-							<div className={styles.tags__portion}>{selectedDish.size}g</div>
-							<div className={styles.tags__qtypeople}>
-								Serves {selectedDish.serving} {selectedDish.serving == 1 ? 'person' : 'people'}
-							</div>
-							<div className={styles.tags__cost}>R$ {selectedDish.price.toFixed(2)}</div>
-						</div>
+					</div>
+					<div>
+						<Tags
+							category={selectedDish.category}
+							price={selectedDish.price}
+							serving={selectedDish.serving}
+							size={selectedDish.size}
+						/>
 					</div>
 				</section>
 			)}
