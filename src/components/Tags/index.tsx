@@ -1,5 +1,4 @@
 import classNames from 'classnames'
-import { IDish } from 'types/DishTypes'
 import styles from './Tags.module.scss'
 import { ITag } from './types'
 

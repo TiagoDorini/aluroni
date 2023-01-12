@@ -1,5 +1,4 @@
 import styles from './Item.module.scss'
-import classNames from 'classnames'
 import { IDish } from 'types/DishTypes'
 import Tags from 'components/Tags'
 import { useNavigate } from 'react-router-dom'
