@@ -1,8 +1,8 @@
 import styles from './Item.module.scss'
-import dishes from 'data/dishes.json'
 import classNames from 'classnames'
+import { IDish } from 'types/DishTypes'
 
-type IItemProps = (typeof dishes)[0]
+interface IItemProps extends IDish {}
 
 export default function Item({ title, description, category, size, serving, price, photo }: IItemProps) {
 	return (

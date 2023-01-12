@@ -2,6 +2,7 @@ import dishes from 'data/dishes.json'
 import Item from './Item'
 import styles from './Itens.module.scss'
 import { useEffect, useState } from 'react'
+import { IDishesMenu } from 'types/DishTypes'
 
 interface IItensProps {
 	search: string
@@ -24,7 +25,7 @@ export default function Itens({ search, filter, sort }: IItensProps) {
 		return true
 	}
 
-	function applySort(newList: typeof dishes) {
+	function applySort(newList: IDishesMenu) {
 		switch (sort) {
 			case 'portion':
 				return newList.sort((a, b) => (a.size > b.size ? 1 : -1))
