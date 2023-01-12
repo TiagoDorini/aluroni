@@ -9,7 +9,7 @@ import NotFound from 'pages/NotFound'
 
 export default function AppRouter() {
 	return (
-		<main>
+		<main className='container'>
 			<Router>
 				<Menu />
 				<Routes>
