@@ -45,8 +45,11 @@ export default function AppRouter() {
 				<Menu />
 				<Routes>
 					<Route path='/' element={<Header />}>
-						{Object.values(routes).map((item) => item.routeComponent)}
+						{routes.home.routeComponent}
+						{routes.dishes.routeComponent}
+						{routes.about.routeComponent}
 					</Route>
+					{routes.dish.routeComponent}
 					<Route path='*' element={<NotFound />} />
 				</Routes>
 				<Footer />
