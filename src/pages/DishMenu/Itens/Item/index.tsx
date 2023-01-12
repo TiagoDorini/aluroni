@@ -2,12 +2,15 @@ import styles from './Item.module.scss'
 import classNames from 'classnames'
 import { IDish } from 'types/DishTypes'
 import Tags from 'components/Tags'
+import { useNavigate } from 'react-router-dom'
 
 interface IItemProps extends IDish {}
 
-export default function Item({ title, description, photo, category, price, serving, size }: IItemProps) {
+export default function Item({ title, description, photo, category, price, serving, size, id }: IItemProps) {
+	const navigate = useNavigate()
+
 	return (
-		<div className={styles.item}>
+		<div onClick={() => navigate(`/dish/${id}`)} className={styles.item}>
 			<div className={styles.item__image}>
 				<img src={photo} alt={title} />
 			</div>

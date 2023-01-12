@@ -1,33 +1,17 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import styles from './Dish.module.scss'
 import dishes from 'data/dishes.json'
-import classNames from 'classnames'
-import { useEffect, useState } from 'react'
-import { IDish } from 'types/DishTypes'
 import Tags from 'components/Tags'
+import NotFound from 'pages/NotFound'
 
 export default function Dish() {
 	const { id } = useParams()
 	const navigate = useNavigate()
-	const [selectedDish, setSelectedDish] = useState<IDish>()
+	const selectedDish = dishes.find((item) => item.id === Number(id))
 
-	function getDish(dishId: string) {
-		const dish = dishes.find((item) => item.id === Number(dishId))
-		if (!dish) return null
-		return dish
+	if (!selectedDish) {
+		return <NotFound />
 	}
-
-	useEffect(() => {
-		if (id) {
-			const dish = getDish(id)
-			if (dish) {
-				setSelectedDish(dish)
-			}
-			if (!dish) {
-				navigate('/notfound')
-			}
-		}
-	}, [id])
 
 	return (
 		<>
